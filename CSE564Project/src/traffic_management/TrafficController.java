@@ -23,7 +23,7 @@ public class TrafficController {
 			}else {
 				lights.get(0).setColor(Color.RED);
 				lights.get(1).setColor(Color.RED);
-			}
+			} 
 		}
 
 	}

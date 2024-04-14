@@ -6,7 +6,7 @@ public class CarCounter implements NumberOfCars {
 	Random random = new Random();
 	private int carCount = 0;
 	
-	public void increment() {
+	public void increment() { 
 		carCount++;
 	}
 
@@ -24,7 +24,7 @@ public class CarCounter implements NumberOfCars {
 	
 	public int getCount() {
 		Random random = new Random();
-		carCount = random.nextInt(11);
+		carCount = random.nextInt(6);
 		return carCount;
 	}
 
